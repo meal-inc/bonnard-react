@@ -1,0 +1,68 @@
+/* @bonnard/react — default theme tokens */
+
+.bonnard-light,
+:root {
+  --bon-bg: #ffffff;
+  --bon-bg-muted: #f9fafb;
+  --bon-bg-card: #ffffff;
+  --bon-border: #e5e7eb;
+  --bon-border-error: #fecaca;
+  --bon-text: #111827;
+  --bon-text-muted: #6b7280;
+  --bon-text-title: #374151;
+  --bon-text-label: #6b7280;
+  --bon-text-error: #b91c1c;
+  --bon-text-warn: #a16207;
+  --bon-bg-error: #fef2f2;
+  --bon-bg-warn: #fefce8;
+  --bon-border-warn: #fde68a;
+  --bon-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  --bon-radius: 8px;
+  --bon-chart-height: 320px;
+  --bon-tooltip-bg: #ffffff;
+  --bon-tooltip-border: #e5e7eb;
+  --bon-tooltip-text: #374151;
+  --bon-tooltip-shadow: 0 2px 8px rgba(59, 130, 246, 0.05);
+  --bon-grid-line: #f3f4f6;
+  --bon-legend-text: #6b7280;
+  --bon-table-header-bg: rgba(107, 114, 128, 0.05);
+  --bon-table-hover: rgba(107, 114, 128, 0.04);
+  --bon-input-bg: #ffffff;
+  --bon-input-border: #d1d5db;
+  --bon-spinner-color: #6b7280;
+}
+
+.bonnard-dark {
+  --bon-bg: #111827;
+  --bon-bg-muted: #1f2937;
+  --bon-bg-card: #1f2937;
+  --bon-border: #374151;
+  --bon-border-error: #7f1d1d;
+  --bon-text: #f9fafb;
+  --bon-text-muted: #9ca3af;
+  --bon-text-title: #e5e7eb;
+  --bon-text-label: #9ca3af;
+  --bon-text-error: #fca5a5;
+  --bon-text-warn: #fcd34d;
+  --bon-bg-error: rgba(127, 29, 29, 0.2);
+  --bon-bg-warn: rgba(161, 98, 7, 0.15);
+  --bon-border-warn: #92400e;
+  --bon-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  --bon-radius: 8px;
+  --bon-chart-height: 320px;
+  --bon-tooltip-bg: #1f2937;
+  --bon-tooltip-border: #374151;
+  --bon-tooltip-text: #e5e7eb;
+  --bon-tooltip-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  --bon-grid-line: #374151;
+  --bon-legend-text: #9ca3af;
+  --bon-table-header-bg: rgba(156, 163, 175, 0.08);
+  --bon-table-hover: rgba(156, 163, 175, 0.05);
+  --bon-input-bg: #1f2937;
+  --bon-input-border: #4b5563;
+  --bon-spinner-color: #9ca3af;
+}
+
+@keyframes bonnard-spin {
+  to { transform: rotate(360deg); }
+}
