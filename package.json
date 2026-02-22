@@ -1,6 +1,6 @@
 {
   "name": "@bonnard/react",
-  "version": "0.4.3",
+  "version": "0.4.4",
   "description": "Bonnard embedded analytics — React charts, dashboards, and hooks",
   "repository": {
     "type": "git",
