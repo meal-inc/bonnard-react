@@ -1,0 +1,90 @@
+/* @bonnard/react — default theme tokens */
+
+:root {
+  --bon-font: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --bon-bg: #ffffff;
+  --bon-bg-muted: #f9fafb;
+  --bon-bg-card: #ffffff;
+  --bon-border: #e5e7eb;
+  --bon-border-error: #fecaca;
+  --bon-text: #111827;
+  --bon-text-muted: #6b7280;
+  --bon-text-title: #374151;
+  --bon-text-label: #6b7280;
+  --bon-text-error: #b91c1c;
+  --bon-text-warn: #a16207;
+  --bon-bg-error: #fef2f2;
+  --bon-bg-warn: #fefce8;
+  --bon-border-warn: #fde68a;
+  --bon-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  --bon-radius: 8px;
+  --bon-chart-height: 320px;
+  --bon-tooltip-bg: #ffffff;
+  --bon-tooltip-border: #e5e7eb;
+  --bon-tooltip-text: #374151;
+  --bon-tooltip-shadow: 0 2px 8px rgba(59, 130, 246, 0.05);
+  --bon-grid-line: #f3f4f6;
+  --bon-legend-text: #6b7280;
+  --bon-table-header-bg: rgba(107, 114, 128, 0.05);
+  --bon-table-hover: rgba(107, 114, 128, 0.04);
+  --bon-positive: #16a34a;
+  --bon-negative: #dc2626;
+  --bon-input-bg: #ffffff;
+  --bon-input-border: #d1d5db;
+  --bon-spinner-color: #6b7280;
+}
+
+.bonnard-dark {
+  --bon-font: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --bon-bg: #111827;
+  --bon-bg-muted: #1f2937;
+  --bon-bg-card: #1f2937;
+  --bon-border: #374151;
+  --bon-border-error: #7f1d1d;
+  --bon-text: #f9fafb;
+  --bon-text-muted: #9ca3af;
+  --bon-text-title: #e5e7eb;
+  --bon-text-label: #9ca3af;
+  --bon-text-error: #fca5a5;
+  --bon-text-warn: #fcd34d;
+  --bon-bg-error: rgba(127, 29, 29, 0.2);
+  --bon-bg-warn: rgba(161, 98, 7, 0.15);
+  --bon-border-warn: #92400e;
+  --bon-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  --bon-radius: 8px;
+  --bon-chart-height: 320px;
+  --bon-tooltip-bg: #1f2937;
+  --bon-tooltip-border: #374151;
+  --bon-tooltip-text: #e5e7eb;
+  --bon-tooltip-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  --bon-grid-line: #374151;
+  --bon-legend-text: #9ca3af;
+  --bon-table-header-bg: rgba(156, 163, 175, 0.08);
+  --bon-table-hover: rgba(156, 163, 175, 0.05);
+  --bon-positive: #4ade80;
+  --bon-negative: #f87171;
+  --bon-input-bg: #1f2937;
+  --bon-input-border: #4b5563;
+  --bon-spinner-color: #9ca3af;
+}
+
+/* Dashboard markdown prose — heading sizes for HTML sections */
+.bon-prose {
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--bon-text);
+}
+.bon-prose h1 { font-size: 1.75em; font-weight: 700; margin: 1.2em 0 0.4em; }
+.bon-prose h2 { font-size: 1.4em; font-weight: 600; margin: 1.6em 0 0.4em; }
+.bon-prose h3 { font-size: 1.15em; font-weight: 600; margin: 1em 0 0.3em; }
+.bon-prose h4 { font-size: 1em; font-weight: 600; margin: 0.8em 0 0.3em; }
+.bon-prose h1:first-child, .bon-prose h2:first-child, .bon-prose h3:first-child { margin-top: 0; }
+.bon-prose p { margin: 0.3em 0; }
+.bon-prose hr { border: none; border-top: 1px solid var(--bon-border); margin: 1.5em 0; }
+.bon-prose ul, .bon-prose ol { margin: 0.3em 0; padding-left: 1.5em; }
+.bon-prose code { font-size: 0.9em; background: var(--bon-bg-muted); padding: 0.15em 0.3em; border-radius: 3px; }
+.bon-prose a { color: var(--bon-text); text-decoration: underline; }
+
+@keyframes bonnard-spin {
+  to { transform: rotate(360deg); }
+}
